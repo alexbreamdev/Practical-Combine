@@ -11,6 +11,9 @@
 		2FB965A428DE0AD2000DF148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB965A328DE0AD2000DF148 /* ContentView.swift */; };
 		2FB965A628DE0AD4000DF148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB965A528DE0AD4000DF148 /* Assets.xcassets */; };
 		2FB965A928DE0AD4000DF148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB965A828DE0AD4000DF148 /* Preview Assets.xcassets */; };
+		2FB965B528DE13E4000DF148 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB965B428DE13E4000DF148 /* ContentViewModel.swift */; };
+		2FB965B728DE15F7000DF148 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB965B628DE15F7000DF148 /* Service.swift */; };
+		2FB965B928DE2137000DF148 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB965B828DE2137000DF148 /* TimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2FB965A328DE0AD2000DF148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FB965A528DE0AD4000DF148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB965A828DE0AD4000DF148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FB965B428DE13E4000DF148 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2FB965B628DE15F7000DF148 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2FB965B828DE2137000DF148 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		2FB965A028DE0AD2000DF148 /* Practical Combine */ = {
 			isa = PBXGroup;
 			children = (
-				2FB965A128DE0AD2000DF148 /* Practical_CombineApp.swift */,
-				2FB965A328DE0AD2000DF148 /* ContentView.swift */,
+				2FB965B328DE10A6000DF148 /* Services */,
+				2FB965B228DE1093000DF148 /* Models */,
+				2FB965B128DE108A000DF148 /* Views */,
+				2FB965B028DE1077000DF148 /* ViewModels */,
+				2FB965AF28DE104F000DF148 /* Main */,
 				2FB965A528DE0AD4000DF148 /* Assets.xcassets */,
 				2FB965A728DE0AD4000DF148 /* Preview Content */,
 			);
@@ -65,6 +74,46 @@
 				2FB965A828DE0AD4000DF148 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FB965AF28DE104F000DF148 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2FB965A128DE0AD2000DF148 /* Practical_CombineApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2FB965B028DE1077000DF148 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2FB965B428DE13E4000DF148 /* ContentViewModel.swift */,
+				2FB965B828DE2137000DF148 /* TimeModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2FB965B128DE108A000DF148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FB965A328DE0AD2000DF148 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FB965B228DE1093000DF148 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FB965B328DE10A6000DF148 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2FB965B628DE15F7000DF148 /* Service.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +188,9 @@
 			files = (
 				2FB965A428DE0AD2000DF148 /* ContentView.swift in Sources */,
 				2FB965A228DE0AD2000DF148 /* Practical_CombineApp.swift in Sources */,
+				2FB965B528DE13E4000DF148 /* ContentViewModel.swift in Sources */,
+				2FB965B728DE15F7000DF148 /* Service.swift in Sources */,
+				2FB965B928DE2137000DF148 /* TimeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
